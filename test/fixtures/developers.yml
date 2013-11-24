@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  email: MyString
+  background: MyText
+  exp_java: false
+  exp_mysql: false
+  exp_webapps: false
+
+two:
+  name: MyString
+  email: MyString
+  background: MyText
+  exp_java: false
+  exp_mysql: false
+  exp_webapps: false

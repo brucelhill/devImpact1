@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @developer.name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @developer.email %>
+</p>
+
+<p>
+  <b>Background:</b>
+  <%= @developer.background %>
+</p>
+
+<p>
+  <b>Exp java:</b>
+  <%= @developer.exp_java %>
+</p>
+
+<p>
+  <b>Exp mysql:</b>
+  <%= @developer.exp_mysql %>
+</p>
+
+<p>
+  <b>Exp webapps:</b>
+  <%= @developer.exp_webapps %>
+</p>
+
+
+<%= link_to 'Edit', edit_developer_path(@developer) %> |
+<%= link_to 'Back', developers_path %>
